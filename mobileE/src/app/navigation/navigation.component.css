@@ -1,0 +1,25 @@
+.nav-wrapper{
+    /* background-color: #d00c31; */
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(208,12,49,1) 44%);
+    padding-top: 7px;
+    height: 120%;
+}
+nav{
+    background-color: none;
+}
+
+div #sidenav-overlay{
+    background-color: none;
+
+}
+@media only screen and (max-width: 693px) {
+    nav .brand-logo{
+         left: 52%;
+         font-size: 1.2rem;
+     }
+ }
+
+.logo-img{
+    width: 13%;
+    margin-left: 4%;
+}
