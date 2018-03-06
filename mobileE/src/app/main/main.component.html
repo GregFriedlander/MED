@@ -77,7 +77,7 @@
 
         </div>
 
-        <div class="row pad-l-r">
+        <div class="row mission-row3 pad-l-r">
 
           <div class="col s12 m6 comp_pricing">
             <i class="large material-icons">monetization_on</i>
@@ -142,10 +142,10 @@
           <div class="row">
             <div class="col s12 m6 service-links">
               <ul>
-                <a href="#custom-modal-1" (click)="openModal('custom-modal-1')"><li>Digital Radiography (X-Ray)</li></a>
+                <a href="#digital-radiography" (click)="openModal('digital-radiography')"><li>Digital Radiography (X-Ray)</li></a>
                 <!-- <button (click)="openModal('custom-modal-1')">Open Modal 1</button> -->
-                <a href="#"><li>Digital Ultrasound</li></a>
-                <a href="#"><li>Dental Floating</li></a>
+                <a href="#dental-floating" (click)="openModal('dental-floating')"><li>Digital Ultrasound</li></a>
+                <a href="#dental-floating" (click)="openModal('dental-floating')"><li>Dental Floating</li></a>
                 <a href="#"><li>Lameness Evaluations</li></a>
                 <a href="#"><li>Prepurchase Examinations</li></a>
                 <a href="#"><li>Endoscopy</li></a>
@@ -177,7 +177,7 @@
 
           <!-- !!!!!!!!! MODALS !!!!!!!!!!!!!!!!!!! -->
 
-          <modal id="custom-modal-1">
+          <modal id="digital-radiography">
             <div class="modal">
                 <div class="modal-body">
                   <h1>Digital Radiography (X-Ray)</h1>
@@ -200,7 +200,45 @@
                       further diagnostics such as digital xray or ultrasound can be performed to
                       elucidate the cause of the lameness.
                   </p>
-                    <button class="close-btn" (click)="closeModal('custom-modal-1');">Close</button>
+                    <button class="close-btn" (click)="closeModal('digital-radiography');">Close</button>
+                </div>
+            </div>
+            <div class="modal-background">
+              <h1>Test</h1>
+            </div>
+          </modal>
+
+          <modal id="dental-floating">
+            <div class="modal">
+                <div class="modal-body">
+                  <h1>Dental Floating</h1>
+                  <p>
+                    A horse’s teeth continue to erupt throughout their lives and are ground down as they masticate. Routine floating is necessary to keep the grinding surface of the molars flat to allow the horse to properly break down fibrous food. If a horse is unable to chew properly and break down food, the small intestine will not be able to absorb a sufficient amount of nutrients. The upper jaw of the horse is wider than the lower jaw. This unequal width creates a natural wear pattern in which sharp points form on the outside (cheek side) of the upper molars and inside (tongue side) of the lower molars. These uneven sharp points can cause painful ulceration of the sensitive oral mucosa. Hooks can also occur on the first and last molars due to poor oral conformation and can cause pain if left untreated. Wolf teeth are small teeth that erupt right in front of the first molars on the upper jaw. They can interfere with the bit and are usually extracted when the horse is young.
+                    <br>
+                    Before your horse’s teeth are floated, a full physical exam will be done to assess general health and ensure that your horse is healthy enough for sedation. Then your horse will be very lightly sedated to ensure his comfort and safety during the procedure. A power float is used during the procedure to grind down any sharp enamel points or molar hooks that may be present. Using a power float as opposed to hand floats ensures precise treatment of each tooth without trauma to the surrounding sensitive oral tissue. It also takes less than half of the time compared to hand floating. This means less sedation, less stress, and less time that the mouth is open in the speculum.
+                    <br>
+                    Regular oral exams and yearly dental floating is important to the overall health of the horse. Poor dental care can result in balling or dropping of food out of the mouth, weight loss, poor hair coat, and behavioral issues. <span class="bold">Oral examinations are included FOR FREE each time Dr. Friedlander vaccinates your horse.</span> 
+                  </p>
+                    <button class="close-btn" (click)="closeModal('dental-floating');">Close</button>
+                </div>
+            </div>
+            <div class="modal-background">
+              <h1>Test</h1>
+            </div>
+          </modal>
+          
+          <modal id="dental-floating">
+            <div class="modal">
+                <div class="modal-body">
+                  <h1>Dental Floating</h1>
+                  <p>
+                    A horse’s teeth continue to erupt throughout their lives and are ground down as they masticate. Routine floating is necessary to keep the grinding surface of the molars flat to allow the horse to properly break down fibrous food. If a horse is unable to chew properly and break down food, the small intestine will not be able to absorb a sufficient amount of nutrients. The upper jaw of the horse is wider than the lower jaw. This unequal width creates a natural wear pattern in which sharp points form on the outside (cheek side) of the upper molars and inside (tongue side) of the lower molars. These uneven sharp points can cause painful ulceration of the sensitive oral mucosa. Hooks can also occur on the first and last molars due to poor oral conformation and can cause pain if left untreated. Wolf teeth are small teeth that erupt right in front of the first molars on the upper jaw. They can interfere with the bit and are usually extracted when the horse is young.
+                    <br>
+                    Before your horse’s teeth are floated, a full physical exam will be done to assess general health and ensure that your horse is healthy enough for sedation. Then your horse will be very lightly sedated to ensure his comfort and safety during the procedure. A power float is used during the procedure to grind down any sharp enamel points or molar hooks that may be present. Using a power float as opposed to hand floats ensures precise treatment of each tooth without trauma to the surrounding sensitive oral tissue. It also takes less than half of the time compared to hand floating. This means less sedation, less stress, and less time that the mouth is open in the speculum.
+                    <br>
+                    Regular oral exams and yearly dental floating is important to the overall health of the horse. Poor dental care can result in balling or dropping of food out of the mouth, weight loss, poor hair coat, and behavioral issues. <span class="bold">Oral examinations are included FOR FREE each time Dr. Friedlander vaccinates your horse.</span> 
+                  </p>
+                    <button class="close-btn" (click)="closeModal('dental-floating');">Close</button>
                 </div>
             </div>
             <div class="modal-background">

@@ -218,6 +218,7 @@ nav{
     margin-left: 18%;
 }
 .parallax h5{
+    display: none;
     font-size: 2.04rem;
     color: #1f1c18;
     text-align: center;
@@ -229,15 +230,15 @@ nav{
     color: whitesmoke;
 }
 .parallax button{
-    margin-top:7%;
-    margin-left: 29%;
-    height: 88px;
-    width: 44%;
+    margin-top: 26%;
+    margin-left: 33%;
+    height: 47px;
+    width: 31%;
     color: white;
     background-color: rgba(173,9,42,1);
-    border: .5px solid black;
-    border-radius: 55px;
-    font-size: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
 }
 .intro-row{
     min-height: 800px;
@@ -286,16 +287,12 @@ nav{
     padding-bottom: 56px;
 }
 .about{
-    /* background-color: #423202; */
+    border-top: 3px solid #469c88;
     background-color: #3e0e0e;
-    /* color: #00FFC2; */
     color: #469c88;
-    /* text-align: center; */
-    /* height: 100px; */
-    width: 100%;
-    border-top: 4px solid #469c88;
+    /* border-top: 1px solid #469c88; */
+    border-top: 2px solid #fbf5c3;
     border-bottom: 4px solid navajowhite;
-    /* margin-top: 3%; */
 }
 .about h1{
     font-family: 'Old Western' !important;
@@ -303,13 +300,13 @@ nav{
     letter-spacing: 2px;
     margin-left: 15%;
     color: navajowhite;
+    margin-bottom: 0px;
 }
-.about h5{
+/* .about h5{
     color: white;
     background-color: #d030305e;
     font-style: italic;
     font-size: 1.59rem;
-    /* padding: 10px; */
     padding-bottom: 17px;
     padding-left: 25px;
     padding-right: 25px;
@@ -319,6 +316,21 @@ nav{
     border-radius: 43px;
     border: navajowhite solid 1.6px;
     box-shadow: 1px 8px navajowhite;
+} */
+.about h5{
+    color: white;
+    background-color: #d0303014;
+    font-style: italic;
+    font-size: 1.29rem;
+    padding-bottom: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    text-align: right;
+    line-height: 155%;
+    border-radius: 11px;
+    /* border: navajowhite solid 1.6px; */
+    /* box-shadow: 1px 8px navajowhite; */
 }
 .about .divider{
     background-color: navajowhite !important;
@@ -342,7 +354,7 @@ nav{
     
 }
 .about h4{
-    font-size: 2.08rem;
+    font-size: 1.78rem;
     color: navajowhite;
 }
 .about p{
@@ -352,7 +364,7 @@ nav{
     line-height: 1.7;
 }
 .about i.large{
-    font-size: 5rem !important;
+    font-size: 4.1rem !important;
     color: navajowhite;
     margin-left: 17%;
 }
@@ -367,6 +379,12 @@ nav{
 .mission-row2{
     margin-bottom: 3% !important;
     margin-top: 8.5% !important;
+    margin-left: 12%;
+    /* margin-right: 4%; */
+}
+.mission-row3{
+    margin-left: 12%;
+    /* margin-right: 4%; */
 }
 .pad-l-r{
     padding-left: 7%;
@@ -382,11 +400,11 @@ nav{
   height: auto;
 }
 .polaroid {
-    border:6px solid navajowhite;
+    border: 3px solid navajowhite;
     max-width: 100%;
     box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
     -webkit-transform: rotate(5deg);
-    transform: rotate(2deg);
+    transform: rotate(0deg);
     margin-left: 13%;
     margin-top: 17%;
 }
@@ -396,7 +414,7 @@ nav{
     max-width: 93%;
     box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
     -webkit-transform: rotate(-5deg);
-    transform: rotate(-1deg);
+    transform: rotate(0deg);
     margin-left: 10%;
     margin-top: 10%;
 }
@@ -849,7 +867,7 @@ button{
     width: 87%;
 }
 .ml-25{
-    margin-left: 13%;
+    margin-left: 5%;
 }
 .ml-10{
     margin-left: 10%;
@@ -865,4 +883,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 .input-field label{
     color: whitesmoke !important;
+}
+.bold{
+    font-weight: bold;
 }
